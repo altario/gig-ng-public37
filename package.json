@@ -1,0 +1,19 @@
+{
+  "name": "gig-ng-public37",
+  "version": "0.0.1",
+  "description": "Public Ng Gig (Altar Development and Training)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altario/gig-ng-public37.git"
+  },
+  "author": "Claudio Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/altario/gig-ng-public37/issues"
+  },
+  "homepage": "https://github.com/altario/gig-ng-public37#readme"
+}
