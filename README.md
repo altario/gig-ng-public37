@@ -43,10 +43,12 @@ This is a complex page where you will have a long list containing a list of volu
 3. Between each of the user tasks time you need to fill the gaps with the `waiting time` between the tasks. (computed from `starsAt - endsAt` or `startedAt - endedAt` if already started)
 4. The today page will consume 2 JSON files (or API): `unassinged_tasks.json` (for the standby area) which will contain all unassigned tasks and `volunteers.json` which contains all volunteers which the tasks already assigned (for the main list)
 5. Implement a local state stategy (you will be updating date locally only, as no API is required on this exercise)
+6. Implement the date picker navigation
+7. Implement the frontend only filter for groups (via select), and name or email (via input type text)
 
 ### Non Functional Requirements
 
-1. Every 15 seconds the grid is refreshed with updated data (via a standard HTTP Request, you can mock the different results randomly in case no API is defined)
+1. Every 15 seconds the grid is refreshed with updated data (you can mock the different results randomly in case no API is defined)
 2. Each of the List rows corresponds to one of the volunteers
 3. The list of volunteers provided contains 400 volunteers but can me more
 4. Volunteers can have at maximum 6 tasks per day (doesn't matter the time)
